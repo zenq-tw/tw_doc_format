@@ -170,7 +170,7 @@ table
 
 td, th
 { 
-  border: 1px solid #dddddd; 
+  border: 1px solid #b4b4b4; 
   text-align: left; 
   padding: 8px; 
 } 
