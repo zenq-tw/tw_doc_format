@@ -514,10 +514,10 @@ html = f"""
             </div>
             <div id="index-holder">
                 <div id="index-tabs">
-                    <button active type="button" name="alphabet_index" onclick="changeActiveIndex()">
+                    <button active type="button" name="alphabet_index">
                         <span> Index </span>
                     </button>
-                    <button type="button" name="areas_index" onclick="changeActiveIndex()">
+                    <button type="button" name="areas_index">
                         <span> Areas </span>
                     </button>
                 </div>
