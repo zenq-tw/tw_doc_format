@@ -34,7 +34,7 @@ if not output_directory.exists():
     os.mkdir(output_directory.name)
 
 
-DOC_NAME = 'UI Callbacks'
+DOC_NAME = 'UI Callback Documentation'
 
 HTML_FILE_NAME = doc_path.with_stem(DOC_NAME.lower().replace(' ', '_')).name
 
@@ -233,6 +233,10 @@ hr
   z-index: 3;
   background: #fff;
   box-shadow: 0 0 1px 0 black;
+}
+
+#title > h2 {
+    margin: 0;
 }
 
 
@@ -495,7 +499,7 @@ html = f"""
     Source: "documentation/ui/callback_documentation.html"
 
     Use this tool to generate a new version if the source has changed:
-        https://github.com/zenq-tw/tw_doc_format/blob/master/ui_callbacks.py
+        https://github.com/zenq-tw/tw_doc_format/blob/master/ui_callback_doc.py
  -->
 <!DOCTYPE html>
 <html>
