@@ -503,9 +503,6 @@ html = f"""
         <title>TW Docs: {DOC_NAME}</title>
         <link rel="stylesheet" href="{CSS_FILE_NAME}">
     </head>
-    <script>
-        {script}
-    </script>
     <body>
         <div id="sidebar">
             <div id="title">
@@ -534,6 +531,9 @@ html = f"""
             {docs}
         </div>
     </body>
+    <script>
+        {script}
+    </script>
 </html>
 """
 
